@@ -28,7 +28,7 @@ If a student or an Instructor updates their name it has to be updated in the oth
 
 # Question 4
 
-<img src = "3NF.PNG" alt="First Normal Form">
+<img src = "3NF-image.PNG" alt="First Normal Form">
 
 `Second Normal Form`
 

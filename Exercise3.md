@@ -1,15 +1,15 @@
 # Question 1
 - Deletion Anomaly
-if a student is deleted from the database it automatically deletes the instructor , departments and the instructor phone number too
+if a student is Deleted FROM the database ,it automatically DELETEs the instructor , departments and the instructor phone number too
 
 
 - Insert Anomaly
 Once a student is added to a department , the instructor , instructor phone has to be added causing duplicate data creating insconsistency
 
 
-- Update Anomaly
+- UPDATE Anomaly
 
-If a student or an Instructor updates their name it has to be updated in the other rows.
+If a student or an Instructor UPDATEs their name it has to be UPDATEd in the other rows.
 
 
 # Question  2 
@@ -28,7 +28,7 @@ If a student or an Instructor updates their name it has to be updated in the oth
 
 # Question 4
 
-<img src = "3NF-image.PNG" alt="First Normal Form">
+<img src = "3N.PNG" alt="First Normal Form">
 
 `Second Normal Form`
 

@@ -15,7 +15,7 @@ FROM students
 `
 SELECT name
 FROM students
-where age = 14`
+WHERE age = 14`
 
 
 # Question 4 
@@ -40,26 +40,26 @@ Values('Grace', 14, 90);
 `
 
 # Question 7 
-` update students
-set grade = 90 
-where name = 'Bob'
+` UPDATE students
+SET grade = 90 
+WHERE name = 'Bob'
 `
 
 # Question 8 
 
-`delete from students 
-where name = 'Eve'`
+`DELETE FROM students 
+WHERE name = 'Eve'`
 
 
 # Question 9 
-`select name 
-from students 
-where grade is null`
+`SELECT name 
+FROM students 
+WHERE grade is null`
 
 
 # Question 10 
-`Select age, COUNT(*) AS student_count
-from students
+`SELECT age, COUNT(*) AS student_count
+FROM students
 group by age
 order by age;
 `
@@ -67,29 +67,32 @@ order by age;
 
 
 # Question 11 
-` select  distinct age
-from students `
+` SELECT  distinct age
+FROM students `
 
 
 # Quesion 12
 
 `
-select name
-from students 
-where grade > 80
+SELECT name
+FROM students 
+oder by desc
+limit 1
 `
 
 
 # Question 13 
 `
-select age , name
-from students 
+SELECT age , name
+FROM students 
 order by grade desc
+
 `
 
 
 `
-select age , name
-from students 
-order by name asc
+SELECT name, age
+FROM students
+ORDER BY grade DESC, name ASC;
+
 `
